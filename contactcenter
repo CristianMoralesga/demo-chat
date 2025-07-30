@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Chat - Microsoft Omnichannel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #2b579a;
+    }
+    .info {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Demo de Chat en Vivo</h1>
+  <div class="info">
+    <p>Este sitio web temporal incluye el widget de Microsoft Omnichannel para mostrar una demo funcional del chat.</p>
+  </div>
+
+  <!-- Widget de Microsoft Omnichannel -->
+  https://oc-cdn-ocprod.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js
+</body>
+</html>
