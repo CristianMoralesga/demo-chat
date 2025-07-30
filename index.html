@@ -14,6 +14,7 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      padding: 1rem;
     }
     .overlay {
       background-color: rgba(0, 0, 0, 0.3);
@@ -22,9 +23,10 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
       text-align: center;
       max-width: 600px;
+      width: 100%;
     }
     .logo {
-      max-width: 180px;
+      max-width: 160px;
       margin-bottom: 1.5rem;
       filter: drop-shadow(0 0 5px rgba(0,0,0,0.4));
     }
@@ -41,11 +43,20 @@
       font-size: 0.9rem;
       color: #ccc;
     }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <img src="https://atx.mx/wp-content/uploads/2024/06/logo-30-atx.png" alt="Logo de ATX" class="logo" />
+    <!-- Logo oficial de ATX -->
+    <img src="https://atx.mx/wp-content/uploads/2021/12/logo-pie-depagina.png" alt="Logo ATX" class="logo" />
 
     <h1>Bienvenido a la Demo de Chat</h1>
     <p>Interactúa con nuestro asistente virtual en tiempo real usando el widget de Microsoft Omnichannel.</p>
