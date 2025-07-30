@@ -1,1 +1,48 @@
-# pages
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo de Chat en Vivo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #2b5876, #4e4376);
+      color: #fff;
+      text-align: center;
+    }
+    .overlay {
+      padding: 4rem 2rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Bienvenido a la Demo de Chat</h1>
+    <p>Interactúa con nuestro asistente virtual en tiempo real usando el widget de Microsoft Omnichannel.</p>
+    <div class="footer">© 2025 Cristian Morales - Demo de Chat</div>
+  </div>
+
+  <!-- Widget de Microsoft Omnichannel -->
+  https://oc-cdn-ocprod.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js
+</body>
+</html>
