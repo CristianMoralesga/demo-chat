@@ -3,30 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Demo de Chat en Vivo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Roboto', sans-serif;
       background: linear-gradient(to right, #2b5876, #4e4376);
       color: #fff;
-      text-align: center;
-    }
-    .overlay {
-      padding: 4rem 2rem;
-      min-height: 100vh;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      min-height: 100vh;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 3rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      max-width: 600px;
+    }
+    .logo {
+      max-width: 180px;
+      margin-bottom: 1.5rem;
+      filter: drop-shadow(0 0 5px rgba(0,0,0,0.4));
     }
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
     }
     p {
       font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto 2rem;
+      margin-bottom: 2rem;
     }
     .footer {
       margin-top: 2rem;
@@ -37,6 +45,8 @@
 </head>
 <body>
   <div class="overlay">
+    <img src="https://atx.mx/wp-content/uploads/2024/06/logo-30-atx.png" alt="Logo de ATX" class="logo" />
+
     <h1>Bienvenido a la Demo de Chat</h1>
     <p>Interactúa con nuestro asistente virtual en tiempo real usando el widget de Microsoft Omnichannel.</p>
     <div class="footer">© 2025 Cristian Morales - Demo de Chat</div>
